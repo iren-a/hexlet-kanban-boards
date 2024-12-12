@@ -1,0 +1,15 @@
+.document {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .12);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .04);
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.document:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .04);
+  border-color: #383838;
+}

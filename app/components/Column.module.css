@@ -1,0 +1,43 @@
+.column {
+  width: 300px;
+  min-height: 70vh;
+  border-radius: 8px;
+}
+
+.documents {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addInput {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border: 1px dashed rgba(0, 0, 0, .12);
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 16px;
+}
+
+.addInput input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.addInput input[placeholder] {
+  font-size: 16px;
+}
+
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: 20px;
+}
